@@ -222,7 +222,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100px;
+    width: 300px;
     height: 50px;
     font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
@@ -242,7 +242,7 @@ body {
 
 .forums-gs-and-recently-added .forums-gs .themes-forum .named-themes-quantity-themes-asks .quantity-themes-asks span {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100px;
     height: 30px;
@@ -303,6 +303,8 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
+    width: 200px;
+    height: 50px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -312,11 +314,224 @@ body {
 
 .forums-gs-and-recently-added .recently-themes .recently-added-theme-and-quantity-message-this-theme .quantity-message-this-theme {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    width: 50px;
+    height: 50px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size: 15px;
     color: black;
-    margin-right: 10px;
+}
+
+.create-new-themes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 60px;
+    margin: 60px 0 10px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.create-new-themes:hover{
+    cursor: pointer;
+}
+
+.create-new-themes a {
+    text-decoration: none;
+}
+
+.create-new-themes a span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+
+.create-new-themes a span:hover{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.all-posts-on-this-topic {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 1100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.all-posts-on-this-topic .name-theme{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 960px;
+    height: 60px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+
+.all-posts-on-this-topic .all-posts{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    border: black solid 1px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.all-posts-on-this-topic .all-posts .title-content-date-time-nameAuthor-post{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 950px;
+    border-bottom: black solid 1px;
+    margin-bottom: 10px;
+}
+
+.all-posts-on-this-topic .all-posts .title-content-date-time-nameAuthor-post .title-content-post{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.all-posts-on-this-topic .all-posts .title-content-date-time-nameAuthor-post .title-content-post a{
+    text-decoration: none;
+}
+
+.all-posts-on-this-topic .all-posts .title-content-date-time-nameAuthor-post .title-content-post a .posts-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 600px;
+    height: 60px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+
+.all-posts-on-this-topic .all-posts .title-content-date-time-nameAuthor-post .title-content-post .posts-content{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 600px;
+    line-height: 1.5;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-overflow: ellipsis;
+}
+
+.all-posts-on-this-topic .all-posts .title-content-date-time-nameAuthor-post .date-time-authors-post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.all-posts-on-this-topic .all-posts .title-content-date-time-nameAuthor-post .date-time-authors-post a{
+    text-decoration: none;
+}
+
+.all-posts-on-this-topic .all-posts .title-content-date-time-nameAuthor-post .date-time-authors-post span{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+.all-posts-on-this-topic .all-posts .title-content-date-time-nameAuthor-post .date-time-authors-post a span:hover{
+    color: dodgerblue;
+}
+
+.content-written-by-the-author{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 1100px;
+    height: 500px;
+    margin: 70px 0 20px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.content-written-by-the-author .post-written-by-the-author{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 900px;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0 30px 0;
+}
+
+.content-written-by-the-author .post-written-by-the-author .content-post{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 900px;
+}
+
+.content-written-by-the-author .post-written-by-the-author .content-post .authors-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.content-written-by-the-author .post-written-by-the-author .content-post .authors-written{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.content-written-by-the-author .post-written-by-the-author .authors-name-date-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+    height: 30px;
+}
+
+.content-written-by-the-author .post-written-by-the-author .authors-name-date-time a{
+    text-decoration: none;
+}
+
+.content-written-by-the-author .post-written-by-the-author .authors-name-date-time .authors-name:hover{
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+.content-written-by-the-author .post-written-by-the-author .authors-name-date-time span{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
 }
